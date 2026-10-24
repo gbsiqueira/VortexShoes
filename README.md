@@ -1,6 +1,7 @@
-# 👟 VortexShoes
+# 👟 VortexShoes — Sistema Integrado de Gestão e Vendas
 
 > **Projeto Integrador — Senac**  
+> Solução corporativa híbrida para gerenciamento de estoque, vendas e controle de funcionários no segmento de calçados.
 
 ---
 
@@ -9,7 +10,7 @@
 A **VortexShoes** é uma plataforma de gestão composta por dois ecossistemas integrados que compartilham uma base de dados unificada no **MySQL**:
 
 1. **Aplicação Desktop (Windows Forms / C#):** Voltada para a operação presencial, controle de estoque, cadastro de produtos, funcionários e relatórios operacionais.
-2. **Painel Web (PHP):** Voltado para desmonstração com vitrine de produtos, cadastros, visualização de gráficos.
+2. **Painel Web (PHP):** Voltado para demonstração com vitrine de produtos, cadastros e visualização de gráficos.
 
 ---
 
@@ -20,7 +21,7 @@ A **VortexShoes** é uma plataforma de gestão composta por dois ecossistemas in
 * **Interface:** Windows Forms, Guna UI Framework (Componentes modernos) & Dashboard gráfico
 * **Acesso a Dados:** `MySql.Data` (Connector/NET)
 
-### **Web (PHP)** de 
+### **Web (PHP)**
 * **Linguagem:** PHP
 * **Servidor Web:** Apache (XAMPP)
 * **Estilização:** HTML5, CSS3, JavaScript
@@ -35,16 +36,13 @@ A **VortexShoes** é uma plataforma de gestão composta por dois ecossistemas in
 ```text
 VortexShoes/
 ├── SiteWeb/               # Código-fonte do sistema PHP (Painel/Web)
-├── Banco_de_Dados/        # Modelos do Banco de dados e o script com backup
-│── images-produtos/       # Imagens cadastradas de produtos
-│── images-funcionarios/   # Imagens cadastradas de funcionários
+├── Banco_de_Dados/        # Modelos do banco de dados e o script com backup
+├── images-produtos/       # Imagens cadastradas de produtos
+├── images-funcionarios/   # Imagens cadastradas de funcionários
 ├── VortexShoes/           # Solução e projeto C# (Desktop Windows Forms)
 │   └── VortexShoes.sln    # Arquivo de solução do Visual Studio
 └── README.md              # Documentação do repositório
-
----
-
-## 🚀 Como Executar o Projeto
+🚀 Como Executar o Projeto
 Pré-requisitos
 XAMPP (com Apache e MySQL ativos)
 
@@ -57,7 +55,7 @@ Clone este repositório para a sua pasta htdocs:
 
 Bash
 cd C:\xampp\htdocs
-git clone [https://github.com/gbsiqueira/VortexShoes.git](https://github.com/seu-usuario/VortexShoes.git)
+git clone [https://github.com/gbsiqueira/VortexShoes.git](https://github.com/gbsiqueira/VortexShoes.git)
 Abra o XAMPP Control Panel e inicie os serviços Apache e MySQL.
 
 Importe o banco de dados MySQL via phpMyAdmin (http://localhost/phpmyadmin) utilizando o script na pasta Banco_de_Dados/.
