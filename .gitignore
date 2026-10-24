@@ -1,0 +1,21 @@
+# Pastas de cache e compilação do Visual Studio
+.vs/
+bin/
+obj/
+[Bb]in/
+[Oo]bj/
+
+# Arquivos específicos do usuário
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Resultados de Build
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Pastas do VS Code
+.vscode/

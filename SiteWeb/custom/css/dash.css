@@ -1,0 +1,108 @@
+ :root {
+      --vortex-card: rgba(18, 18, 18, 0.85);
+      --vortex-border: rgba(255, 255, 255, 0.12);
+      --vortex-text: #f3f4f6;
+      --vortex-muted: #9ca3af;
+    }
+
+    body {
+      color: var(--vortex-text);
+      font-family: 'Inter', sans-serif;
+    }
+
+    .vortex-panel {
+      background: var(--vortex-card);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--vortex-border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      height: 100%;
+      box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+    }
+
+    .vortex-panel-title {
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: #fff;
+      margin-bottom: 1.25rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .vortex-card-stat {
+      background: var(--vortex-card);
+      backdrop-filter: blur(12px);
+      border: 1px solid var(--vortex-border);
+      border-radius: 16px;
+      padding: 1.5rem;
+      height: 100%;
+    }
+
+    .vortex-card-stat.destaque {
+      border-left: 4px solid #ffffff;
+    }
+
+    .vortex-card-stat i {
+      font-size: 1.8rem;
+      color: var(--vortex-muted);
+      margin-bottom: 0.75rem;
+      display: block;
+    }
+
+    .vortex-stat-value {
+      font-family: 'Anton', sans-serif;
+      font-size: 2.2rem;
+      line-height: 1;
+      margin-bottom: 0.25rem;
+      color: #fff;
+      letter-spacing: 0.5px;
+    }
+
+    .vortex-stat-label {
+      color: var(--vortex-muted);
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    .vortex-chart-container {
+      position: relative;
+      height: 260px;
+      width: 100%;
+    }
+
+    .vortex-table {
+      margin-bottom: 0;
+      color: var(--vortex-text);
+      vertical-align: middle;
+      width: 100%;
+    }
+
+    .vortex-table th {
+      background: transparent;
+      color: var(--vortex-muted);
+      font-weight: 600;
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      border-bottom: 1px solid var(--vortex-border);
+      padding: 0.75rem 0.5rem;
+    }
+
+    .vortex-table td {
+      background: transparent;
+      color: #e5e7eb;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.04);
+      padding: 0.85rem 0.5rem;
+      font-size: 0.875rem;
+    }
+
+    .vortex-empty {
+      color: var(--vortex-muted);
+      text-align: center;
+      padding: 2rem;
+      font-style: italic;
+      font-size: 0.9rem;
+    }
