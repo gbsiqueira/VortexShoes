@@ -86,7 +86,7 @@ git clone https://github.com/gbsiqueira/VortexShoes.git
 
 **5.** Pressione `F5` ou clique em **Iniciar** para executar o sistema desktop.
 
-Utilize esse login para ter acesso ao sistema desktop e ao painel administrativo da web
+**6.** Utilize esse login para ter acesso ao sistema desktop e ao painel administrativo da web
 
 usuário: admin
 
