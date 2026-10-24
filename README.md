@@ -17,17 +17,20 @@ A **VortexShoes** é uma plataforma de gestão composta por dois ecossistemas in
 ## 🛠️ Tecnologias Utilizadas
 
 ### **Desktop (C#)**
-* **Linguagem:** C# (.NET Framework)
-* **Interface:** Windows Forms, Guna UI Framework (Componentes modernos) & Dashboard gráfico
-* **Acesso a Dados:** `MySql.Data` (Connector/NET)
+
+- **Linguagem:** C# (.NET Framework)
+- **Interface:** Windows Forms, Guna UI Framework (componentes modernos) e dashboard gráfico.
+- **Acesso a Dados:** `MySql.Data` (Connector/NET).
 
 ### **Web (PHP)**
-* **Linguagem:** PHP
-* **Servidor Web:** Apache (XAMPP)
-* **Estilização:** HTML5, CSS3, JavaScript
+
+- **Linguagem:** PHP
+- **Servidor Web:** Apache (XAMPP)
+- **Estilização:** HTML5, CSS3 e JavaScript.
 
 ### **Banco de Dados**
-* **SGBD:** MySQL / MariaDB
+
+- **SGBD:** MySQL / MariaDB.
 
 ---
 
@@ -36,42 +39,55 @@ A **VortexShoes** é uma plataforma de gestão composta por dois ecossistemas in
 ```text
 VortexShoes/
 ├── SiteWeb/               # Código-fonte do sistema PHP (Painel/Web)
-├── Banco_de_Dados/        # Modelos do banco de dados e o script com backup
+├── Banco_de_Dados/        # Modelos do banco de dados e script de backup
 ├── images-produtos/       # Imagens cadastradas de produtos
 ├── images-funcionarios/   # Imagens cadastradas de funcionários
 ├── VortexShoes/           # Solução e projeto C# (Desktop Windows Forms)
 │   └── VortexShoes.sln    # Arquivo de solução do Visual Studio
 └── README.md              # Documentação do repositório
-🚀 Como Executar o Projeto
-Pré-requisitos
-XAMPP (com Apache e MySQL ativos)
+```
 
-Visual Studio 2019/2022 com a carga de trabalho "Desenvolvimento para desktop com .NET"
+---
 
-Git
+## 🚀 Como Executar o Projeto
 
-1. Configuração da Aplicação Web (PHP)
-Clone este repositório para a sua pasta htdocs:
+### Pré-requisitos
 
-Bash
+- XAMPP (com Apache e MySQL ativos).
+- Visual Studio 2019/2022 com a carga de trabalho **Desenvolvimento para desktop com .NET**.
+- Git.
+
+### 1. Configuração da Aplicação Web (PHP)
+
+**1.** Clone este repositório para a pasta `htdocs` do XAMPP:
+
+```bash
 cd C:\xampp\htdocs
-git clone [https://github.com/gbsiqueira/VortexShoes.git](https://github.com/gbsiqueira/VortexShoes.git)
-Abra o XAMPP Control Panel e inicie os serviços Apache e MySQL.
+git clone https://github.com/gbsiqueira/VortexShoes.git
+```
 
-Importe o banco de dados MySQL via phpMyAdmin (http://localhost/phpmyadmin) utilizando o script na pasta Banco_de_Dados/.
+**2.** Abra o XAMPP Control Panel e inicie os serviços Apache e MySQL.
 
-Acesse o site no navegador: http://localhost/VortexShoes/SiteWeb/.
+**3.** Importe o banco de dados pelo phpMyAdmin ([http://localhost/phpmyadmin](http://localhost/phpmyadmin)), utilizando o script disponível na pasta `Banco_de_Dados/`.
 
-2. Configuração da Aplicação Desktop (C#)
-Abra a pasta do projeto clonado no seu computador.
+**4.** Acesse o site pelo navegador:
 
-Navegue até a pasta VortexShoes/ e abra o arquivo VortexShoes.sln no Visual Studio.
+[http://localhost/VortexShoes/SiteWeb/](http://localhost/VortexShoes/SiteWeb/)
 
-Se o Visual Studio pedir para restaurar as dependências, clique em Restaurar Pacotes do NuGet.
+### 2. Configuração da Aplicação Desktop (C#)
 
-Certifique-se de que o MySQL está em execução no XAMPP.
+**1.** Abra a pasta do projeto clonado no seu computador.
 
-Pressione F5 ou clique em Iniciar para rodar o sistema desktop.
+**2.** Navegue até a pasta `VortexShoes/` e abra o arquivo `VortexShoes.sln` no Visual Studio.
 
-👤 Autor
+**3.** Se o Visual Studio solicitar a restauração das dependências, clique em **Restaurar Pacotes do NuGet**.
+
+**4.** Certifique-se de que o MySQL está em execução no XAMPP.
+
+**5.** Pressione `F5` ou clique em **Iniciar** para executar o sistema desktop.
+
+---
+
+## 👤 Autor
+
 Desenvolvido como projeto prático durante a formação técnica no Senac.
