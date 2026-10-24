@@ -35,6 +35,7 @@ O **VortexShoes** é uma plataforma de gestão composta por dois ecossistemas in
 ```text
 VortexShoes/
 ├── SiteWeb/               # Código-fonte do sistema PHP (Painel/Web)
+├── Banco_de_Dados/        # Modelos do Banco de dados e o script com backup
 │── images-produtos/       # Imagens cadastradas de produtos
 │── images-funcionarios/   # Imagens cadastradas de funcionários
 ├── VortexShoes/           # Solução e projeto C# (Desktop Windows Forms)
