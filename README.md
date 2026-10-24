@@ -88,7 +88,8 @@ git clone https://github.com/gbsiqueira/VortexShoes.git
 
 Utilize esse login para ter acesso ao sistema desktop e ao painel administrativo da web
 
-login: admin
+usuário: admin
+
 senha: admin
 
 ---
