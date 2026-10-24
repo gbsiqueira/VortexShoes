@@ -6,7 +6,7 @@
 
 ## 📌 Visão Geral do Projeto
 
-O **VortexShoes** é uma plataforma de gestão composta por dois ecossistemas integrados que compartilham uma base de dados unificada no **MySQL**:
+A **VortexShoes** é uma plataforma de gestão composta por dois ecossistemas integrados que compartilham uma base de dados unificada no **MySQL**:
 
 1. **Aplicação Desktop (Windows Forms / C#):** Voltada para a operação presencial, controle de estoque, cadastro de produtos, funcionários e relatórios operacionais.
 2. **Painel Web (PHP):** Voltado para desmonstração com vitrine de produtos, cadastros, visualização de gráficos.
@@ -42,8 +42,9 @@ VortexShoes/
 │   └── VortexShoes.sln    # Arquivo de solução do Visual Studio
 └── README.md              # Documentação do repositório
 
+---
 
-🚀 Como Executar o Projeto
+## 🚀 Como Executar o Projeto
 Pré-requisitos
 XAMPP (com Apache e MySQL ativos)
 
